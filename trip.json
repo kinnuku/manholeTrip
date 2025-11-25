@@ -1,84 +1,16 @@
 {
-  "2025/12/6～7：福井・石川・富山":{
+  "2025/12/6：岐阜":{
     "days":[
       [
         {
         "arrival":"05:00",
         "departure":"08:00",
-        "city":"京都市",
-        "title":"京都駅→清水寺",
-        "address":"京都府京都市東山区清水1丁目2941",
-        "note":"入館料必要",
-        "manhole_url":"https://www.gk-p.jp/mhcard/",
-        "url":""
-        },
-        {
-        "arrival":"09:20",
-        "departure":"11:00",
-        "city":"京都市",
-        "title":"清水寺見学",
-        "address":"京都府京都市東山区清水1丁目294",
-        "note":"入館料必要",
-        "manhole_url":"https://www.gk-p.jp/mhcard/",
-        "url":"https://www.dinosaur-museum.jp/"
-        },
-        {
-        "arrival":"11:10",
-        "departure":"11:20",
-        "city":"京都市",
-        "title":"清水寺→祇園",
-        "address":"京都府京都市東山区祇園町",
-        "note":"入館料必要",
-        "manhole_url":"https://www.gk-p.jp/mhcard/",
-        "url":""
-        }
-      ],
-      [
-        {
-        "arrival":"13:00",
-        "departure":"13:15",
-        "city":"京都市",
-        "title":"祇園→金閣寺",
-        "address":"京都府京都市北区金閣寺町1",
-        "note":"入館料必要",
-        "manhole_url":"https://www.gk-p.jp/mhcard/",
-        "url":"https://www.dinosaur-museum.jp/"
-        },
-        {
-        "arrival":"13:20",
-        "departure":"15:00",
-        "city":"京都市",
-        "title":"金閣寺見学",
-        "address":"京都府京都市北区金閣寺町1",
-        "note":"入館料必要",
-        "manhole_url":"https://www.gk-p.jp/mhcard/",
-        "url":"https://www.dinosaur-museum.jp/"
-        }
-      ]
-    ]
-  },
-  "2025/12/1福井旅行":{
-    "days":[
-      [
-        {
-        "arrival":"09:10",
-        "departure":"09:25",
-        "city":"勝山市",
-        "title":"福井駅→恐竜博物館",
-        "address":"福井県勝山市村岡町寺尾51-11",
-        "note":"入館料必要",
-        "manhole_url":"https://www.gk-p.jp/mhcard/",
-        "url":"https://www.dinosaur-museum.jp/"
-        },
-        {
-        "arrival":"09:40",
-        "departure":"12:00",
-        "city":"勝山市",
-        "title":"恐竜博物館見学",
-        "address":"福井県勝山市村岡町寺尾51-11",
-        "note":"入館料必要",
-        "manhole_url":"https://www.gk-p.jp/mhcard/",
-        "url":"https://www.dinosaur-museum.jp/"
+        "distance":"243.0km",
+        "city":"郡上市④",
+        "title":"道の駅 美並物産館",
+        "address":"岐阜県郡上市美並町上田2605",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
+        "url":"https://www.city.gujo.gifu.jp/admin/info/div_suidou_soumu.html"
         }
       ]
     ]
