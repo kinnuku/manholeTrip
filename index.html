@@ -2,7 +2,8 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>Timeline Schedule</title>
+  <link rel="icon" href="ka-min.png" type="image/png">
+  <title>マンホールカード旅</title>
   <style>
     body { font-family: "Segoe UI", "Hiragino Sans", sans-serif; background:#fafafa; padding:20px; color:#333; }
     h2 { font-size:28px; font-weight:600; margin-bottom:20px; border-left:5px solid #1976d2; padding-left:12px; }
@@ -30,10 +31,10 @@
     th:nth-child(1), td:nth-child(1) { width:50px; }    /* 完了 */
     th:nth-child(2), td:nth-child(2) { width:50px; }    /* 到着 */
     th:nth-child(3), td:nth-child(3) { width:50px; }    /* 出発 */
-    th:nth-child(4), td:nth-child(4) { width:50px; }   /* 市区町村 */
-    th:nth-child(5), td:nth-child(5) { width:200px; }   /* 目的地 */
+    th:nth-child(4), td:nth-child(4) { width:70px; }   /* 市区町村 */
+    th:nth-child(5), td:nth-child(5) { width:180px; }   /* 目的地 */
     th:nth-child(6), td:nth-child(6) { width:250px; }   /* 住所 */
-    th:nth-child(7), td:nth-child(7) { width:100px; }   /* 注意事項 */
+    th:nth-child(7), td:nth-child(7) { width:70px; }   /* 注意事項 */
     th:nth-child(8), td:nth-child(8) { width:50px; }    /* GKPリンク */
 
     .mhcard-link-note {
@@ -59,8 +60,10 @@
   </style>
 </head>
 <body>
-
-<h2>マンホールカード旅</h2>
+<h2>
+  <img src="ka-min.png" alt="カーミン" style="width:1em; height:auto; vertical-align:text-bottom; margin-right:0.3em;">
+  マンホールカード旅
+</h2>
 
 <div class="mhcard-link-note">
   詳しくは <a href="https://www.gk-p.jp/mhcard/" target="_blank">マンホールカード公式サイト</a> をご確認ください。
@@ -185,4 +188,3 @@ function attachEvents(flatItems) {
 
 </body>
 </html>
-
