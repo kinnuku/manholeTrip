@@ -25,29 +25,29 @@
     td a:hover { text-decoration:underline; }
     .done { color:#999; background:#f3f3f3; }
     input[type="checkbox"] { transform: scale(1.2); }
-    .note { font-size:13px; color:#666; word-wrap: break-word; }
+    .distance { font-size:13px; color:#666; word-wrap: break-word; }
 
     /* 列幅 */
     th:nth-child(1), td:nth-child(1) { width:50px; }    /* 完了 */
     th:nth-child(2), td:nth-child(2) { width:50px; }    /* 到着 */
     th:nth-child(3), td:nth-child(3) { width:50px; }    /* 出発 */
-    th:nth-child(4), td:nth-child(4) { width:70px; }   /* 市区町村 */
-    th:nth-child(5), td:nth-child(5) { width:180px; }   /* 目的地 */
-    th:nth-child(6), td:nth-child(6) { width:250px; }   /* 住所 */
-    th:nth-child(7), td:nth-child(7) { width:70px; }   /* 注意事項 */
+    th:nth-child(4), td:nth-child(4) { width:50px; }    /* 距離 */
+    th:nth-child(5), td:nth-child(5) { width:70px; }    /* 市区町村 */
+    th:nth-child(6), td:nth-child(6) { width:180px; }   /* 目的地 */
+    th:nth-child(7), td:nth-child(7) { width:250px; }   /* 住所 */
     th:nth-child(8), td:nth-child(8) { width:50px; }    /* GKPリンク */
 
-    .mhcard-link-note {
+    .mhcard-link-distance {
       font-size:14px;
       margin-top:10px;
       margin-bottom:20px;
     }
-    .mhcard-link-note a {
+    .mhcard-link-distance a {
       color:#1976d2;
       font-weight:bold;
       text-decoration:none;
     }
-    .mhcard-link-note a:hover {
+    .mhcard-link-distance a:hover {
       text-decoration:underline;
     }
 
@@ -65,7 +65,7 @@
   マンホールカード旅
 </h2>
 
-<div class="mhcard-link-note">
+<div class="mhcard-link-distance">
   詳しくは <a href="https://www.gk-p.jp/mhcard/" target="_blank">マンホールカード公式サイト</a> をご確認ください。
 </div>
 
@@ -128,10 +128,10 @@ function renderDays() {
       <th>完了</th>
       <th>到着</th>
       <th>出発</th>
+      <th>距離</th>
       <th>市区町村</th>
       <th>目的地</th>
       <th>住所</th>
-      <th>注意事項</th>
       <th>GKP</th>
     </tr>`;
     table.appendChild(thead);
@@ -152,6 +152,7 @@ function renderDays() {
         <td><input type="checkbox" data-index="${globalIndex}" ${item.done?"checked":""}></td>
         <td>${item.arrival}</td>
         <td>${item.departure}</td>
+        <td>${item.distance}</td>
         <td>${item.city || ""}</td>
         <td>
           ${item.url
@@ -160,7 +161,6 @@ function renderDays() {
           }
         </td>
         <td><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.address)}" target="_blank">${item.address}</a></td>
-        <td class="note">${item.note}</td>
         <td><a href="${manholeUrl}" target="_blank">リンク</a></td>
       `;
       tbody.appendChild(tr);
