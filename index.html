@@ -4,11 +4,20 @@
   <meta charset="UTF-8">
   <title>Timeline Schedule</title>
   <style>
-    body { font-family: "Segoe UI", "Hiragino Sans", sans-serif; background:#fafafa; padding:40px; color:#333; }
-    h2 { font-size:28px; font-weight:600; margin-bottom:30px; border-left:5px solid #1976d2; padding-left:12px; }
-    select { padding:8px 12px; font-size:16px; margin-bottom:20px; }
+    body { font-family: "Segoe UI", "Hiragino Sans", sans-serif; background:#fafafa; padding:20px; color:#333; }
+    h2 { font-size:28px; font-weight:600; margin-bottom:20px; border-left:5px solid #1976d2; padding-left:12px; }
+    select {
+      padding: 8px 12px;
+      font-size: 16px;
+      margin-bottom: 20px;
+      width: 100%;
+      max-width: 300px; /* ここで最大幅を指定 */
+      box-sizing: border-box; /* パディング込みで幅調整 */
+    }
 
-    table { border-collapse: collapse; width: 100%; margin-bottom: 30px; table-layout: fixed; }
+    .table-wrapper { width:100%; overflow-x:auto; }
+
+    table { border-collapse: collapse; width: 100%; min-width:700px; table-layout: fixed; }
     th, td { border:1px solid #ddd; padding:6px 8px; text-align:left; vertical-align: top; }
     th { background:#f0f0f0; }
     td a { color:#1976d2; text-decoration:none; }
@@ -17,19 +26,20 @@
     input[type="checkbox"] { transform: scale(1.2); }
     .note { font-size:13px; color:#666; word-wrap: break-word; }
 
-    /* 列幅調整 */
+    /* 列幅 */
     th:nth-child(1), td:nth-child(1) { width:50px; }    /* 完了 */
     th:nth-child(2), td:nth-child(2) { width:50px; }    /* 到着 */
     th:nth-child(3), td:nth-child(3) { width:50px; }    /* 出発 */
-    th:nth-child(4), td:nth-child(4) { width:150px; }   /* 目的地 */
-    th:nth-child(5), td:nth-child(5) { width:250px; }    /* 住所 */
-    th:nth-child(6), td:nth-child(6) { width:100px; }   /* 注意事項 */
-    th:nth-child(7), td:nth-child(7) { width:70px; }   /* マンホールカードリンク */
+    th:nth-child(4), td:nth-child(4) { width:50px; }   /* 市区町村 */
+    th:nth-child(5), td:nth-child(5) { width:200px; }   /* 目的地 */
+    th:nth-child(6), td:nth-child(6) { width:250px; }   /* 住所 */
+    th:nth-child(7), td:nth-child(7) { width:100px; }   /* 注意事項 */
+    th:nth-child(8), td:nth-child(8) { width:50px; }    /* GKPリンク */
 
     .mhcard-link-note {
       font-size:14px;
       margin-top:10px;
-      margin-bottom:20px; /* セレクトボックスとの間隔 */
+      margin-bottom:20px;
     }
     .mhcard-link-note a {
       color:#1976d2;
@@ -39,13 +49,19 @@
     .mhcard-link-note a:hover {
       text-decoration:underline;
     }
+
+    @media (max-width: 768px) {
+      body { padding:10px; }
+      h2 { font-size:22px; }
+      table { min-width:600px; }
+      th, td { font-size:14px; padding:4px 6px; }
+    }
   </style>
 </head>
 <body>
 
 <h2>日別スケジュール</h2>
 
-<!-- 常に表示するマンホールカードリンク -->
 <div class="mhcard-link-note">
   詳しくは <a href="https://www.gk-p.jp/mhcard/" target="_blank">マンホールカード公式サイト</a> をご確認ください。
 </div>
@@ -100,12 +116,16 @@ function renderDays() {
     dayTitle.textContent = `【${idx+1}日目】`;
     container.appendChild(dayTitle);
 
+    const wrapper = document.createElement("div");
+    wrapper.className = "table-wrapper";
+
     const table = document.createElement("table");
     const thead = document.createElement("thead");
     thead.innerHTML = `<tr>
       <th>完了</th>
       <th>到着</th>
       <th>出発</th>
+      <th>市区町村</th>
       <th>目的地</th>
       <th>住所</th>
       <th>注意事項</th>
@@ -115,7 +135,8 @@ function renderDays() {
 
     const tbody = document.createElement("tbody");
     table.appendChild(tbody);
-    container.appendChild(table);
+    wrapper.appendChild(table);
+    container.appendChild(wrapper);
 
     dayData.forEach(item => {
       const globalIndex = flatItems.indexOf(item);
@@ -128,6 +149,7 @@ function renderDays() {
         <td><input type="checkbox" data-index="${globalIndex}" ${item.done?"checked":""}></td>
         <td>${item.arrival}</td>
         <td>${item.departure}</td>
+        <td>${item.city || ""}</td>
         <td>
           ${item.url
             ? `<a href="${item.url}" target="_blank">${item.title}</a>`
