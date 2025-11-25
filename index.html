@@ -31,7 +31,7 @@
     th:nth-child(1), td:nth-child(1) { width:50px; }    /* 完了 */
     th:nth-child(2), td:nth-child(2) { width:50px; }    /* 到着 */
     th:nth-child(3), td:nth-child(3) { width:50px; }    /* 出発 */
-    th:nth-child(4), td:nth-child(4) { width:70px; }    /* 距離 */
+    th:nth-child(4), td:nth-child(4) { width:50px; }    /* 距離 */
     th:nth-child(5), td:nth-child(5) { width:70px; }    /* 市区町村 */
     th:nth-child(6), td:nth-child(6) { width:180px; }   /* 目的地 */
     th:nth-child(7), td:nth-child(7) { width:250px; }   /* 住所 */
@@ -126,8 +126,8 @@ function renderDays() {
     const thead = document.createElement("thead");
     thead.innerHTML = `<tr>
       <th>完了</th>
-      <th>到着</th>
       <th>出発</th>
+      <th>到着</th>
       <th>距離</th>
       <th>市区町村</th>
       <th>目的地</th>
@@ -150,8 +150,8 @@ function renderDays() {
 
       tr.innerHTML = `
         <td><input type="checkbox" data-index="${globalIndex}" ${item.done?"checked":""}></td>
-        <td>${item.arrival}</td>
         <td>${item.departure}</td>
+        <td>${item.arrival}</td>
         <td>${item.distance}</td>
         <td>${item.city || ""}</td>
         <td>
@@ -188,4 +188,3 @@ function attachEvents(flatItems) {
 
 </body>
 </html>
-
