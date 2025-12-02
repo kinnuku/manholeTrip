@@ -446,7 +446,7 @@
         "distance":"31.5km",
         "city":"飛騨市②",
         "title":"道の駅スカイドーム神岡",
-        "address":"岐阜県飛騨市神岡町夕陽ヶ丘6",
+        "address":"",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.hida.gifu.jp/soshiki/15/manhorucard.html"
         },
@@ -469,6 +469,243 @@
         "address":"兵庫県神戸市長田区東尻池町2-4-16",
         "manhole_url":"-",
         "url":""
+        }
+      ]
+    ]
+  },
+
+    "2025/11/23：兵庫・大阪":{
+    "days":[
+      [
+        {
+        "departure":"07:30",
+        "arrival":"08:20",
+        "distance":"49.2km",
+        "city":"-",
+        "title":"小林家",
+        "address":"兵庫県姫路市飾磨区城南町2-8-2",
+        "manhole_url":"-",
+        "url":"-"
+        },
+        {
+        "departure":"08:20",
+        "arrival":"08:30",
+        "distance":"1.4km",
+        "city":"-",
+        "title":"西川家",
+        "address":"兵庫県姫路市飾磨区今在家7-62",
+        "manhole_url":"-",
+        "url":"-"
+        },
+        {
+        "departure":"08:30",
+        "arrival":"09:00",
+        "distance":"31.9km",
+        "city":"市川町",
+        "title":"市川町役場 1階受付",
+        "address":"兵庫県神崎郡市川町西川辺165-3",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
+        "url":"https://www.town.ichikawa.lg.jp/info/800"
+        },
+        {
+        "departure":"09:10",
+        "arrival":"09:20",
+        "distance":"4.8km",
+        "city":"福崎町",
+        "title":"福崎町役場 上下水道課",
+        "address":"兵庫県神崎郡福崎町南田原3116-1",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
+        "url":"https://www.town.fukusaki.hyogo.jp/0000002753.html"
+        },
+        {
+        "departure":"09:30",
+        "arrival":"09:40",
+        "distance":"8.0km",
+        "city":"加西市②",
+        "title":"北条町駅",
+        "address":"兵庫県加西市北条町北条駅前町28-2",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
+        "url":"https://www.city.kasai.hyogo.jp/site/jougesuido/1249.html"
+        },
+        {
+        "departure":"09:50",
+        "arrival":"10:00",
+        "distance":"1.0km",
+        "city":"加西市①",
+        "title":"加西市民会館",
+        "address":"兵庫県加西市北条町古坂1-1",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
+        "url":"https://www.city.kasai.hyogo.jp/site/jougesuido/1249.html"
+        },
+        {
+        "departure":"10:10",
+        "arrival":"10:30",
+        "distance":"9.5km",
+        "city":"加東市①②",
+        "title":"加東市観光協会",
+        "address":"兵庫県加東市河高4028",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
+        "url":"https://www.city.kato.lg.jp/kakukanogoannai/sangyoushinkoubu/shokokankoka/news/8693.html"
+        },
+        {
+        "departure":"10:40",
+        "arrival":"11:00",
+        "distance":"18.3km",
+        "city":"西脇市②",
+        "title":"西脇市日本のへそ日時計の丘公園 オートキャンプ場",
+        "address":"兵庫県西脇市黒田庄町門柳871-14",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
+        "url":"https://www.city.nishiwaki.lg.jp/kurashi/jyogesuido/topics/1511776919480.html"
+        },
+        {
+        "departure":"11:10",
+        "arrival":"11:40",
+        "distance":"33.2km",
+        "city":"三木市②",
+        "title":"山田錦の館",
+        "address":"兵庫県三木市吉川町吉安222",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
+        "url":"https://www.city.miki.lg.jp/soshiki/46/8300.html"
+        },
+        {
+        "departure":"11:50",
+        "arrival":"12:10",
+        "distance":"22.0km",
+        "city":"三木市①",
+        "title":"三木市観光協会",
+        "address":"兵庫県三木市末広1-1-35",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
+        "url":"https://www.city.miki.lg.jp/soshiki/46/8300.html"
+        },
+        {
+        "departure":"12:20",
+        "arrival":"12:30",
+        "distance":"2.1km",
+        "city":"三木市③",
+        "title":"あじさいフローラみき",
+        "address":"兵庫県三木市福井字三木山",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
+        "url":"https://www.city.miki.lg.jp/soshiki/46/8300.html"
+        },
+        {
+        "departure":"12:40",
+        "arrival":"12:50",
+        "distance":"2.2km",
+        "city":"昼食🍜",
+        "title":"らーめん 琴壱家",
+        "address":"兵庫県三木市別所町小林734-3",
+        "manhole_url":"-",
+        "url":"https://tabelog.com/hyogo/A2804/A280403/28050364/"
+        },
+        {
+        "departure":"13:50",
+        "arrival":"14:50",
+        "distance":"59.2km",
+        "city":"大阪市①②",
+        "title":"おおさかグリーンエコプラザ",
+        "address":"大阪府大阪市住之江区南港北2-1-10",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=27",
+        "url":"https://www.city.osaka.lg.jp/kensetsu/page/0000431121.html"
+        },
+        {
+        "departure":"15:00",
+        "arrival":"15:20",
+        "distance":"12.0km",
+        "city":"大阪市③",
+        "title":"大阪市下水道科学館",
+        "address":"大阪府大阪市此花区高見1-2-53",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=27",
+        "url":"https://www.city.osaka.lg.jp/kensetsu/page/0000431121.html"
+        },
+        {
+        "departure":"15:30",
+        "arrival":"16:10",
+        "distance":"22.5km",
+        "city":"東大阪市",
+        "title":"東大阪市 下水道計画総務室",
+        "address":"大阪府東大阪市荒本北1-1-1",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=27",
+        "url":"https://www.city.higashiosaka.lg.jp/0000019197.html"
+        },
+        {
+        "departure":"16:20",
+        "arrival":"16:40",
+        "distance":"10.5km",
+        "city":"守口市",
+        "title":"守口市役所 総合案内",
+        "address":"大阪府守口市京阪本通2-5-5",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=27",
+        "url":"https://www.city.moriguchi.osaka.jp/kakukanoannai/kankyougesuidoubu/gesuidokanrika/designed_maintainance_hole/487.html"
+        },
+        {
+        "departure":"16:50",
+        "arrival":"17:20",
+        "distance":"21.5km",
+        "city":"茨木市①",
+        "title":"ダムパークいばきた",
+        "address":"大阪府茨木市大字生保53-1",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=27",
+        "url":"https://www.city.ibaraki.osaka.jp/kikou/kensetsu/gesuidosoumu/menu/46736.html"
+        },
+        {
+        "departure":"17:30",
+        "arrival":"17:50",
+        "distance":"7.6km",
+        "city":"茨木市②",
+        "title":"茨木市文化・子育て施設 おにクル",
+        "address":"大阪府茨木市駅前3-9-45",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=27",
+        "url":"https://www.city.ibaraki.osaka.jp/kikou/kensetsu/gesuidosoumu/menu/46736.html"
+        },
+        {
+        "departure":"17:30",
+        "arrival":"17:50",
+        "distance":"7.6km",
+        "city":"茨木市②",
+        "title":"茨木市文化・子育て施設 おにクル",
+        "address":"大阪府茨木市駅前3-9-45",
+        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=27",
+        "url":"https://www.city.ibaraki.osaka.jp/kikou/kensetsu/gesuidosoumu/menu/46736.html"
+        },
+        {
+        "departure":"18:00",
+        "arrival":"18:30",
+        "distance":"23.1km",
+        "city":"夕食🍛",
+        "title":"アングル",
+        "address":"兵庫県尼崎市南塚口町2-1-2 塚口さんさんタウン2番館 1F",
+        "manhole_url":"-",
+        "url":"https://tabelog.com/hyogo/A2803/A280304/28000142/"
+        },
+        {
+        "departure":"19:30",
+        "arrival":"20:00",
+        "distance":"30.3km",
+        "city":"-",
+        "title":"西川家",
+        "address":"兵庫県神戸市長田区東尻池町2-4-16",
+        "manhole_url":"-",
+        "url":"-"
+        },
+        {
+        "departure":"20:00",
+        "arrival":"21:00",
+        "distance":"57.2km",
+        "city":"-",
+        "title":"小林家",
+        "address":"兵庫県姫路市飾磨区城南町2-8-2",
+        "manhole_url":"-",
+        "url":"-"
+        },
+        {
+        "departure":"21:00",
+        "arrival":"22:00",
+        "distance":"50.2km",
+        "city":"-",
+        "title":"森角家",
+        "address":"兵庫県神崎郡神河町大山1015-1",
+        "manhole_url":"-",
+        "url":"-"
         }
       ]
     ]
