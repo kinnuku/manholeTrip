@@ -27,15 +27,15 @@
     .done { color:#000; background:#aaa; }
     input[type="checkbox"] { transform: scale(1.2); }
 
-    /* 列幅 */
     th:nth-child(1), td:nth-child(1) { width:10px; }
     th:nth-child(2), td:nth-child(2) { width:50px; }
     th:nth-child(3), td:nth-child(3) { width:50px; }
-    th:nth-child(4), td:nth-child(4) { width:70px; }
+    th:nth-child(4), td:nth-child(4) { width:50px; }
     th:nth-child(5), td:nth-child(5) { width:70px; }
     th:nth-child(6), td:nth-child(6) { width:180px; }
-    th:nth-child(7), td:nth-child(7) { width:250px; }
-    th:nth-child(8), td:nth-child(8) { width:50px; }
+    th:nth-child(7), td:nth-child(7) { width:80px; }
+    th:nth-child(8), td:nth-child(8) { width:200px; }
+    th:nth-child(9), td:nth-child(9) { width:50px; }
 
     .mhcard-link-distance {
       font-size:14px;
@@ -66,11 +66,29 @@
   マンホールカード旅
 </h2>
 
+<div style="margin-bottom:20px;">
+  <a href="guidelines.html" style="
+      display:inline-block;
+      padding:10px 16px;
+      background:#1976d2;
+      color:#fff;
+      text-decoration:none;
+      border-radius:6px;
+      font-size:15px;
+  ">
+    旅行ガイドラインへ
+  </a>
+</div>
+
 <div class="mhcard-link-distance">
   詳しくは <a href="https://www.gk-p.jp/mhcard/" target="_blank">マンホールカード公式サイト</a> をご確認ください。
 </div>
 
-<select id="trip-select"><option value="">旅行を選択</option></select>
+<div class="mhcard-link-distance">
+  また、割り勘計算については、 <a href="https://walica.jp/" target="_blank">walica公式サイト</a> をご利用ください。
+</div>
+
+<select id="trip-select"></select>
 <div id="summary"></div>
 <div id="schedule-container"></div>
 
@@ -79,7 +97,6 @@
 let trips = {};
 let currentTrip = null;
 
-// JSON読み込み
 fetch("trip.json")
   .then(res => res.json())
   .then(data => {
@@ -117,30 +134,18 @@ function renderDays() {
   const flatItems = [];
   days.forEach(dayData => dayData.forEach(item => flatItems.push(item)));
 
-  // -------------------------------------------------
-  // ★ 追加：総距離 & マンホールカード枚数 計算
-  // -------------------------------------------------
   let totalDistance = 0;
   let cardCount = 0;
 
   flatItems.forEach(item => {
-    // 距離（"12.3km" など → 数値へ）
     const d = parseFloat(item.distance);
     if (!isNaN(d)) totalDistance += d;
-
-    // マンホールカード枚数（manhole_url が "-" 以外）
-    if (item.manhole_url && item.manhole_url !== "-") {
-      cardCount++;
-    }
+    if (item.manhole_url && item.manhole_url !== "-") cardCount++;
   });
 
-  // summary に表示
-    document.getElementById("summary").innerHTML =
+  document.getElementById("summary").innerHTML =
     `総距離：${totalDistance.toFixed(1)} km<br>
     マンホールカード枚数：${cardCount} 枚`;
-
-
-  // -------------------------------------------------
 
   days.forEach((dayData, idx) => {
     const dayTitle = document.createElement("h3");
@@ -159,7 +164,8 @@ function renderDays() {
       <th>距離</th>
       <th>市区町村</th>
       <th>目的地</th>
-      <th>住所</th>
+      <th>営業時間</th>
+      <th>Google Map</th>
       <th>GKP</th>
     </tr>`;
     table.appendChild(thead);
@@ -186,12 +192,9 @@ function renderDays() {
             : item.title
           }
         </td>
+        <td>${item.time}</td>
         <td><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.address)}" target="_blank">${item.address}</a></td>
-        <td>${
-        item.manhole_url && item.manhole_url !== "-" 
-            ? `<a href="${item.manhole_url}" target="_blank">リンク</a>`
-            : "-"
-        }</td>
+        <td>${item.manhole_url && item.manhole_url !== "-" ? `<a href="${item.manhole_url}" target="_blank">リンク</a>` : "-"}</td>
       `;
       tbody.appendChild(tr);
     });
@@ -218,4 +221,3 @@ function attachEvents(flatItems) {
 
 </body>
 </html>
-

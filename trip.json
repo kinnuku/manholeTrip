@@ -1,5 +1,5 @@
 {
-  "2026/2/7～8：山口":{
+  "2026/02/07(土)：山口":{
     "days":[
       [
         {
@@ -8,6 +8,7 @@
         "distance":"265.0km",
         "city":"廿日市市",
         "title":"廿日市市中央市民センター",
+        "time":"09:00～17:00",
         "address":"広島県廿日市市天神11-29",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=34",
         "url":"https://www.city.hatsukaichi.hiroshima.jp/soshiki/120/33207.html"
@@ -18,6 +19,7 @@
         "distance":"26.8km",
         "city":"和木町",
         "title":"和木町蜂ヶ峯総合公園 管理棟",
+        "time":"09:00～17:00",
         "address":"山口県玖珂郡和木町大字瀬田紺屋作260-1",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://www.town.waki.lg.jp/soshiki/3/186.html"
@@ -28,6 +30,7 @@
         "distance":"10.7km",
         "city":"岩国市②",
         "title":"岩国市観光交流所本家 松がね",
+        "time":"09:00～18:00",
         "address":"山口県岩国市岩国1丁目7-3",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://www.city.iwakuni.lg.jp/soshiki/26/98824.html"
@@ -38,6 +41,7 @@
         "distance":"-",
         "city":"観光🏯",
         "title":"岩国城・錦帯橋",
+        "time":"09:00～16:30",
         "address":"山口県岩国市横山３丁目",
         "manhole_url":"-",
         "url":"https://yamaguchi-tourism.jp/spot/detail_11341.html"
@@ -48,6 +52,7 @@
         "distance":"6.6km",
         "city":"昼食🍜",
         "title":"寿栄広食堂",
+        "time":"10:00～19:00",
         "address":"山口県岩国市麻里布町1-2-3",
         "manhole_url":"-",
         "url":"https://tabelog.com/yamaguchi/A3506/A350601/35000016/"
@@ -58,6 +63,7 @@
         "distance":"1.4km",
         "city":"岩国市①",
         "title":"岩国市英語交流センター「PLAT ABC」",
+        "time":"09:00～17:00",
         "address":"山口県岩国市元町⼀丁⽬1番1号 レジデンス岩国駅東1階",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://www.city.iwakuni.lg.jp/soshiki/26/98824.html"
@@ -68,6 +74,7 @@
         "distance":"31.5km",
         "city":"柳井市",
         "title":"柳井市観光協会",
+        "time":"09:00～16:00",
         "address":"山口県柳井市柳井3714-1",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://www.city-yanai.jp/soshiki/72/gesuika-do.html"
@@ -78,6 +85,7 @@
         "distance":"28.7km",
         "city":"下松市①②",
         "title":"下松市観光案内所",
+        "time":"09:00～16:30",
         "address":"山口県下松市西豊井1247(下松駅南口)",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://www.city.kudamatsu.lg.jp/sui-gesui/kurashi/jougesuidou/gesuidou/manhole-card.html"
@@ -87,6 +95,7 @@
         "arrival":"14:20",
         "distance":"8.2km",
         "city":"周南市",
+        "time":"09:00～17:00",
         "title":"周南市観光案内所まちのポート",
         "address":"山口県周南市みなみ銀座1-26 TOKUYAMA DECK D1 1階",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
@@ -97,6 +106,7 @@
         "arrival":"15:10",
         "distance":"29.9km",
         "city":"防府市",
+        "time":"09:00～17:00",
         "title":"防府市地域交流センター（アスピラート） 1階事務室",
         "address":"山口県防府市戎町1-1-28",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
@@ -108,6 +118,7 @@
         "distance":"29.9km",
         "city":"山口市④",
         "title":"阿知須いぐらの館",
+        "time":"10:00～16:00",
         "address":"山口県山口市阿知須3425",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://water-city-yamaguchi.com/for-kids/page_1089/"
@@ -118,6 +129,7 @@
         "distance":"40.5km",
         "city":"宇部市①",
         "title":"ときわ湖水ホール",
+        "time":"09:00～17:00",
         "address":"山口県宇部市大字沖宇部254",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://www.city.ube.yamaguchi.jp/kurashi/gasgesui/1015032/1015277/1015109.html"
@@ -128,6 +140,7 @@
         "distance":"5.4km",
         "city":"宇部市②",
         "title":"宇部市新川ふれあいセンター",
+        "time":"09:00～17:00",
         "address":"山口県宇部市朝日町8-20",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://www.city.ube.yamaguchi.jp/kurashi/gasgesui/1015032/1015277/1015113.html"
@@ -138,6 +151,7 @@
         "distance":"8.9km",
         "city":"山陽小野田市①",
         "title":"歴史民俗資料館",
+        "time":"09:00～17:00",
         "address":"山口県山陽小野田市栄町9-21",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://www.city.sanyo-onoda.lg.jp/soshiki/27/manholecard.html"
@@ -148,6 +162,7 @@
         "distance":"1.4km",
         "city":"山陽小野田市②",
         "title":"おのサンサッカーパーク（山陽小野田市立サッカー交流公園）",
+        "time":"08:00～18:00",
         "address":"山口県山陽小野田市大字小野田7525-17",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://www.city.sanyo-onoda.lg.jp/soshiki/27/renofa-manholecard.html"
@@ -158,6 +173,7 @@
         "distance":"45.2km",
         "city":"ホテル",
         "title":"スカイハートホテル下関",
+        "time":"",
         "address":"山口県下関市岬之町6-7",
         "manhole_url":"-",
         "url":"https://www.sky-hotel.jp/shimonoseki/"
@@ -168,6 +184,7 @@
         "distance":"1.2km",
         "city":"晩飯🐡",
         "title":"大衆酒場 三枡",
+        "time":"15:00～22:00",
         "address":"山口県下関市竹崎町2-13-11 三枡ビル",
         "manhole_url":"-",
         "url":"https://tabelog.com/yamaguchi/A3502/A350201/35002350/"
@@ -180,6 +197,7 @@
         "distance":"7.3km",
         "city":"下関市②",
         "title":"長府庭園",
+        "time":"09:00～17:00",
         "address":"山口県下関市長府黒門東町8番11号",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://www.city.shimonoseki.lg.jp/site/water/5654.html"
@@ -190,6 +208,7 @@
         "distance":"0.7km",
         "city":"下関市①",
         "title":"長府観光会館",
+        "time":"09:00～17:00",
         "address":"山口県下関市長府侍町二丁目1-15",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://www.city.shimonoseki.lg.jp/site/water/5647.html"
@@ -200,6 +219,7 @@
         "distance":"51.5km",
         "city":"観光🌉",
         "title":"角島大橋",
+        "time":"00:00～24:00",
         "address":"山口県下関市豊北町神田～角島",
         "manhole_url":"-",
         "url":"https://yamaguchi-tourism.jp/spot/detail_11030.html"
@@ -210,6 +230,7 @@
         "distance":"54.1km",
         "city":"萩市",
         "title":"萩・明倫学舎",
+        "time":"09:00～17:00",
         "address":"山口県萩市大字江向602番地",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://www.city.hagi.lg.jp/soshiki/105/h29713.html"
@@ -220,6 +241,7 @@
         "distance":"34.7km",
         "city":"昼食🍗",
         "title":"やまむら",
+        "time":"11:00～15:00",
         "address":"山口県美祢市美東町真名2256",
         "manhole_url":"-",
         "url":"https://tabelog.com/yamaguchi/A3504/A350402/35000142/"
@@ -230,6 +252,7 @@
         "distance":"11.2km",
         "city":"美祢市",
         "title":"秋芳洞案内所",
+        "time":"08:30～16:30",
         "address":"山口県美祢市秋芳町秋吉3449番地1",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://karusuto.com/"
@@ -240,6 +263,7 @@
         "distance":"-",
         "city":"観光🗻",
         "title":"秋芳洞",
+        "time":"08:30～16:30",
         "address":"山口県美祢市秋芳町秋吉3449番地1",
         "manhole_url":"-",
         "url":"https://karusuto.com/"
@@ -250,6 +274,7 @@
         "distance":"23.1km",
         "city":"山口市②",
         "title":"新山口駅観光交流センター",
+        "time":"09:00～18:00",
         "address":"山口県山口市小郡令和1-2-6",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://water-city-yamaguchi.com/for-kids/page_1089/"
@@ -260,6 +285,7 @@
         "distance":"10.4km",
         "city":"山口市③",
         "title":"湯田温泉観光案内所",
+        "time":"09:00～18:00",
         "address":"山口県山口市湯田温泉2-1-23",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://water-city-yamaguchi.com/for-kids/page_1089/"
@@ -270,6 +296,7 @@
         "distance":"3.0km",
         "city":"山口市①",
         "title":"山口観光案内所",
+        "time":"09:00～18:00",
         "address":"山口県山口市惣太夫町2-1（山口駅1階）",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=35",
         "url":"https://water-city-yamaguchi.com/for-kids/page_1089/"
@@ -280,6 +307,7 @@
         "distance":"367.0km",
         "city":"-",
         "title":"西川家",
+        "time":"",
         "address":"兵庫県姫路市飾磨区今在家7-62",
         "manhole_url":"-",
         "url":""
@@ -288,7 +316,7 @@
     ]
   },
 
-    "2025/12/6：岐阜":{
+    "2025/12/06(土)：岐阜":{
     "days":[
       [
         {
@@ -297,6 +325,7 @@
         "distance":"243.0km",
         "city":"郡上市④",
         "title":"道の駅 美並物産館",
+        "time":"08:00～17:00",
         "address":"岐阜県郡上市美並町上田2605",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.gujo.gifu.jp/admin/info/post-1158.html"
@@ -307,6 +336,7 @@
         "distance":"20.3km",
         "city":"郡上市③",
         "title":"郡上八幡旧庁舎記念館",
+        "time":"08:30～17:00",
         "address":"岐阜県郡上市八幡町島谷520-1",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.gujo.gifu.jp/admin/info/post-1158.html"
@@ -317,6 +347,7 @@
         "distance":"1.6km",
         "city":"郡上市①",
         "title":"郡上八幡駅 観光案内所",
+        "time":"09:00～17:00",
         "address":"岐阜県郡上市八幡町城南188-54",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.gujo.gifu.jp/admin/info/post-1158.html"
@@ -327,6 +358,7 @@
         "distance":"10.7km",
         "city":"郡上市②",
         "title":"道の駅 古今伝授の里やまと",
+        "time":"09:00～18:00",
         "address":"岐阜県郡上市大和町剣164",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.gujo.gifu.jp/admin/info/post-1158.html"
@@ -337,6 +369,7 @@
         "distance":"35.0km",
         "city":"高山市④",
         "title":"高山市荘川支所",
+        "time":"08:30～17:15",
         "address":"岐阜県高山市荘川町新渕430-1",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.takayama.lg.jp/kurashi/1000022/1000122/1001131/1022809.html"
@@ -347,6 +380,7 @@
         "distance":"34.2km",
         "city":"高山市⑨",
         "title":"高山市清見支所 当直室窓口",
+        "time":"08:30～17:15",
         "address":"岐阜県高山市清見町三日町305",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.takayama.lg.jp/kurashi/1000022/1000122/1001131/1022809.html"
@@ -357,6 +391,7 @@
         "distance":"7.7km",
         "city":"高山市①",
         "title":"高山市役所 当直室",
+        "time":"08:30～17:15",
         "address":"岐阜県高山市花岡町2-18",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.takayama.lg.jp/kurashi/1000022/1000122/1001131/1022809.html"
@@ -367,6 +402,7 @@
         "distance":"1.1km",
         "city":"昼食🍜",
         "title":"まさごそば",
+        "time":"11:00～15:50",
         "address":"岐阜県高山市有楽町31-3",
         "manhole_url":"-",
         "url":"https://tabelog.com/gifu/A2104/A210401/21000021/"
@@ -377,6 +413,7 @@
         "distance":"8.5km",
         "city":"高山市⑤",
         "title":"高山市一之宮支所",
+        "time":"08:30～17:15",
         "address":"岐阜県高山市一之宮町3100",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.takayama.lg.jp/kurashi/1000022/1000122/1001131/1022809.html"
@@ -387,6 +424,7 @@
         "distance":"6.5km",
         "city":"高山市⑥",
         "title":"高山市久々野支所 当直室窓口",
+        "time":"08:30～17:15",
         "address":"岐阜県高山市久々野町無数河580-1",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.takayama.lg.jp/kurashi/1000022/1000122/1001131/1022809.html"
@@ -397,6 +435,7 @@
         "distance":"10.3km",
         "city":"高山市⑦",
         "title":"道の駅 ひだ朝日村",
+        "time":"10:00～16:00",
         "address":"岐阜県高山市朝日町万石150",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.takayama.lg.jp/kurashi/1000022/1000122/1001131/1022809.html"
@@ -407,6 +446,7 @@
         "distance":"17.1km",
         "city":"高山市⑧",
         "title":"高山市丹生川支所",
+        "time":"08:30～17:15",
         "address":"岐阜県高山市丹生川町坊方2000",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.takayama.lg.jp/kurashi/1000022/1000122/1001131/1022809.html"
@@ -417,6 +457,7 @@
         "distance":"12.2km",
         "city":"高山市③",
         "title":"高山市国府支所",
+        "time":"08:30～17:15",
         "address":"岐阜県高山市国府町広瀬町880-1",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.takayama.lg.jp/kurashi/1000022/1000122/1001131/1022809.html"
@@ -427,6 +468,7 @@
         "distance":"4.1km",
         "city":"飛騨市①",
         "title":"飛騨古川まちなか観光案内所",
+        "time":"09:00～16:00",
         "address":"岐阜県飛騨市古川町壱之町8-3",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.hida.gifu.jp/soshiki/15/manhorucard.html"
@@ -437,6 +479,7 @@
         "distance":"50.8km",
         "city":"高山市②",
         "title":"奥飛騨温泉郷観光案内所",
+        "time":"10:00～16:00",
         "address":"岐阜県高山市奥飛騨温泉郷神坂710-9",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.takayama.lg.jp/kurashi/1000022/1000122/1001131/1022809.html"
@@ -447,7 +490,8 @@
         "distance":"31.5km",
         "city":"飛騨市②",
         "title":"道の駅スカイドーム神岡",
-        "address":"",
+        "time":"09:00～17:00",
+        "address":"岐阜県飛騨市神岡町夕陽ヶ丘6",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=21",
         "url":"https://www.city.hida.gifu.jp/soshiki/15/manhorucard.html"
         },
@@ -457,6 +501,7 @@
         "distance":"38.2km",
         "city":"夕食🐮",
         "title":"味の与平",
+        "time":"17:00～20:00",
         "address":"岐阜県高山市上三之町105",
         "manhole_url":"-",
         "url":"https://tabelog.com/gifu/A2104/A210401/21009589/"
@@ -467,6 +512,7 @@
         "distance":"337.0km",
         "city":"-",
         "title":"西川家",
+        "time":"",
         "address":"兵庫県神戸市長田区東尻池町2-4-16",
         "manhole_url":"-",
         "url":""
@@ -475,7 +521,7 @@
     ]
   },
 
-    "2025/11/23：兵庫・大阪":{
+    "2025/11/23(日)：兵庫・大阪":{
     "days":[
       [
         {
@@ -484,6 +530,7 @@
         "distance":"49.2km",
         "city":"-",
         "title":"小林家",
+        "time":"",
         "address":"兵庫県姫路市飾磨区城南町2-8-2",
         "manhole_url":"-",
         "url":""
@@ -494,6 +541,7 @@
         "distance":"1.4km",
         "city":"-",
         "title":"西川家",
+        "time":"",
         "address":"兵庫県姫路市飾磨区今在家7-62",
         "manhole_url":"-",
         "url":""
@@ -503,6 +551,7 @@
         "arrival":"09:00",
         "distance":"31.9km",
         "city":"市川町",
+        "time":"09:00～17:00",
         "title":"市川町役場 1階受付",
         "address":"兵庫県神崎郡市川町西川辺165-3",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
@@ -513,6 +562,7 @@
         "arrival":"09:20",
         "distance":"4.8km",
         "city":"福崎町",
+        "time":"08:30～17:15",
         "title":"福崎町役場 上下水道課",
         "address":"兵庫県神崎郡福崎町南田原3116-1",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
@@ -524,6 +574,7 @@
         "distance":"8.0km",
         "city":"加西市②",
         "title":"北条町駅",
+        "time":"09:00～17:00",
         "address":"兵庫県加西市北条町北条駅前町28-2",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
         "url":"https://www.city.kasai.hyogo.jp/site/jougesuido/1249.html"
@@ -534,6 +585,7 @@
         "distance":"1.0km",
         "city":"加西市①",
         "title":"加西市民会館",
+        "time":"10:00～21:00",
         "address":"兵庫県加西市北条町古坂1-1",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
         "url":"https://www.city.kasai.hyogo.jp/site/jougesuido/1249.html"
@@ -544,6 +596,7 @@
         "distance":"9.5km",
         "city":"加東市①②",
         "title":"加東市観光協会",
+        "time":"08:30～17:15",
         "address":"兵庫県加東市河高4028",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
         "url":"https://www.city.kato.lg.jp/kakukanogoannai/sangyoushinkoubu/shokokankoka/news/8693.html"
@@ -554,6 +607,7 @@
         "distance":"18.3km",
         "city":"西脇市②",
         "title":"西脇市日本のへそ日時計の丘公園 オートキャンプ場",
+        "time":"09:00～17:00",
         "address":"兵庫県西脇市黒田庄町門柳871-14",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
         "url":"https://www.city.nishiwaki.lg.jp/kurashi/jyogesuido/topics/1511776919480.html"
@@ -564,6 +618,7 @@
         "distance":"33.2km",
         "city":"三木市②",
         "title":"山田錦の館",
+        "time":"09:30～17:00",
         "address":"兵庫県三木市吉川町吉安222",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
         "url":"https://www.city.miki.lg.jp/soshiki/46/8300.html"
@@ -574,6 +629,7 @@
         "distance":"22.0km",
         "city":"三木市①",
         "title":"三木市観光協会",
+        "time":"09:00～17:00",
         "address":"兵庫県三木市末広1-1-35",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
         "url":"https://www.city.miki.lg.jp/soshiki/46/8300.html"
@@ -584,6 +640,7 @@
         "distance":"2.1km",
         "city":"三木市③",
         "title":"あじさいフローラみき",
+        "time":"10:00～15:00",
         "address":"兵庫県三木市福井字三木山",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=28",
         "url":"https://www.city.miki.lg.jp/soshiki/46/8300.html"
@@ -594,6 +651,7 @@
         "distance":"2.2km",
         "city":"昼食🍜",
         "title":"らーめん 琴壱家",
+        "time":"11:00～15:00",
         "address":"兵庫県三木市別所町小林734-3",
         "manhole_url":"-",
         "url":"https://tabelog.com/hyogo/A2804/A280403/28050364/"
@@ -604,6 +662,7 @@
         "distance":"59.2km",
         "city":"大阪市①②",
         "title":"おおさかグリーンエコプラザ",
+        "time":"10:00～17:30",
         "address":"大阪府大阪市住之江区南港北2-1-10",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=27",
         "url":"https://www.city.osaka.lg.jp/kensetsu/page/0000431121.html"
@@ -614,6 +673,7 @@
         "distance":"12.0km",
         "city":"大阪市③",
         "title":"大阪市下水道科学館",
+        "time":"09:00～16:30",
         "address":"大阪府大阪市此花区高見1-2-53",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=27",
         "url":"https://www.city.osaka.lg.jp/kensetsu/page/0000431121.html"
@@ -624,6 +684,7 @@
         "distance":"22.5km",
         "city":"東大阪市",
         "title":"東大阪市 下水道計画総務室",
+        "time":"09:00～17:30",
         "address":"大阪府東大阪市荒本北1-1-1",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=27",
         "url":"https://www.city.higashiosaka.lg.jp/0000019197.html"
@@ -635,6 +696,7 @@
         "city":"守口市",
         "title":"守口市役所 総合案内",
         "address":"大阪府守口市京阪本通2-5-5",
+        "time":"09:00～17:30",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=27",
         "url":"https://www.city.moriguchi.osaka.jp/kakukanoannai/kankyougesuidoubu/gesuidokanrika/designed_maintainance_hole/487.html"
         },
@@ -645,6 +707,7 @@
         "city":"茨木市①",
         "title":"ダムパークいばきた",
         "address":"大阪府茨木市大字生保53-1",
+        "time":"09:00～17:30",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=27",
         "url":"https://www.city.ibaraki.osaka.jp/kikou/kensetsu/gesuidosoumu/menu/46736.html"
         },
@@ -655,16 +718,7 @@
         "city":"茨木市②",
         "title":"茨木市文化・子育て施設 おにクル",
         "address":"大阪府茨木市駅前3-9-45",
-        "manhole_url":"https://www.gk-p.jp/mhcard/?pref=27",
-        "url":"https://www.city.ibaraki.osaka.jp/kikou/kensetsu/gesuidosoumu/menu/46736.html"
-        },
-        {
-        "departure":"17:30",
-        "arrival":"17:50",
-        "distance":"7.6km",
-        "city":"茨木市②",
-        "title":"茨木市文化・子育て施設 おにクル",
-        "address":"大阪府茨木市駅前3-9-45",
+        "time":"09:00～21:00",
         "manhole_url":"https://www.gk-p.jp/mhcard/?pref=27",
         "url":"https://www.city.ibaraki.osaka.jp/kikou/kensetsu/gesuidosoumu/menu/46736.html"
         },
@@ -675,6 +729,7 @@
         "city":"夕食🍛",
         "title":"アングル",
         "address":"兵庫県尼崎市南塚口町2-1-2 塚口さんさんタウン2番館 1F",
+        "time":"11:00～23:00",
         "manhole_url":"-",
         "url":"https://tabelog.com/hyogo/A2803/A280304/28000142/"
         },
@@ -685,6 +740,7 @@
         "city":"-",
         "title":"西川家",
         "address":"兵庫県神戸市長田区東尻池町2-4-16",
+        "time":"",
         "manhole_url":"-",
         "url":""
         },
@@ -695,6 +751,7 @@
         "city":"-",
         "title":"小林家",
         "address":"兵庫県姫路市飾磨区城南町2-8-2",
+        "time":"",
         "manhole_url":"-",
         "url":""
         },
@@ -705,6 +762,7 @@
         "city":"-",
         "title":"森角家",
         "address":"兵庫県神崎郡神河町大山1015-1",
+        "time":"",
         "manhole_url":"-",
         "url":""
         }
